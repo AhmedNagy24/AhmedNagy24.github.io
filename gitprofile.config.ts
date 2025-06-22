@@ -20,7 +20,7 @@ const CONFIG = {
           description:
             'Fixora is designed to be a comprehensive platform for both craftsmen and customers. Craftsmen can display their services and skills to a broad audience, while customers can view the profiles of available craftsmen, and search for specific services. Customers can book craftsmen for various tasks, ensuring they find the right professional for home repairs and improvements.',
           imageUrl:
-            'https://github.com/AhmedNagy24/AhmedNagy24.github.io/blob/main/Fixora.jpg',
+            '/Fixora.jpg',
           link: '',
         },
       ],
