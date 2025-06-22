@@ -11,6 +11,20 @@ const CONFIG = {
    */
   base: '/',
   projects: {
+    external: {
+      header: 'My Projects',
+      // To hide the `External Projects` section, keep it empty.
+      projects: [
+        {
+          title: 'Fixora',
+          description:
+            'Fixora is designed to be a comprehensive platform for both craftsmen and customers. Craftsmen can display their services and skills to a broad audience, while customers can view the profiles of available craftsmen, and search for specific services. Customers can book craftsmen for various tasks, ensuring they find the right professional for home repairs and improvements.',
+          imageUrl:
+            'https://github.com/AhmedNagy24/AhmedNagy24.github.io/blob/main/Fixora.jpg',
+          link: '',
+        },
+      ],
+    },
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
@@ -27,21 +41,7 @@ const CONFIG = {
         // Properties for manually specifying projects
         projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
-    },
-    external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Fixora',
-          description:
-            'Fixora is designed to be a comprehensive platform for both craftsmen and customers. Craftsmen can display their services and skills to a broad audience, while customers can view the profiles of available craftsmen, and search for specific services. Customers can book craftsmen for various tasks, ensuring they find the right professional for home repairs and improvements.',
-          imageUrl:
-            'https://drive.google.com/file/d/14HqTEOK90if9DqMQKgXSAPJxwbLHR1OE/view?usp=sharing',
-          link: '',
-        },
-      ],
-    },
+    },   
   },
   seo: {
     title: 'Portfolio of Ahmed Nagy',
