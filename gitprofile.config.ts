@@ -2,30 +2,30 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'AhmedNagy24', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        limit: 10, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,33 +33,25 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Fixora',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Fixora is designed to be a comprehensive platform for both craftsmen and customers. Craftsmen can display their services and skills to a broad audience, while customers can view the profiles of available craftsmen, and search for specific services. Customers can book craftsmen for various tasks, ensuring they find the right professional for home repairs and improvements.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://drive.google.com/file/d/14HqTEOK90if9DqMQKgXSAPJxwbLHR1OE/view?usp=sharing',
+          link: '',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
+    title: 'Portfolio of Ahmed Nagy',
+    description: 'Motivated and detail-oriented Computer Science graduate with a solid foundation in data structures, algorithms, and software development principles. Proficient in Java, Python, and SQL, with hands-on experience building backend systems and web applications through academic projects and internships. Strong problem-solving skills, a passion for clean and efficient code, and a desire to contribute to collaborative and innovative development teams.',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'ahmed-nagy-rd',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,97 +61,74 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: '',
+    phone: '+201015684166',
+    email: 'ahmed.nagy.rd@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1n_bsm_vv4r2BB3VOUGerJphsDCKy710i/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'C/C++',
+    'C#',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'ASP.Net',
+    'Entity Framework',
+    '.Net Core',
+    'Problem solving',
+    'AWS',
+    'Azure',
+    'Oracle Cloud',
+    'Software Engineering',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Software Testing',
+    'Advanced Database',
+    'MS SQL Server',
+    'Algorithm design and analysis',
+    'Linux',
+    'Java',
+    'Spring Boot',
+    'Machine Learning',
+    'NLP',
+    'Python',
+    'Django',
+    'Scrum',
+    'DevOps',
+    'CI/CD',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'CodSoft',
+      position: 'Intern',
+      from: 'Aug 2024',
+      to: 'Sep 2024',
+      companyLink: 'https://www.codsoft.in/',
     },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Cairo University - Faculty of Computers and Artificial Intelligence',
+      degree: 'Bachelor’s degree in Computer Science',
+      from: '2021',
+      to: '2025',
     },
   ],
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+    
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -179,7 +148,7 @@ const CONFIG = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Display the ring in Profile picture
     displayAvatarRing: true,
@@ -234,11 +203,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: ``,
 
   enablePWA: true,
 };
