@@ -72,7 +72,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1BZiwM4EwXEeX2ruys907XHuA9vWPkTOK/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      '/Ahmed Nagy-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C/C++',
