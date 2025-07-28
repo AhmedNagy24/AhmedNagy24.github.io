@@ -101,8 +101,17 @@ const CONFIG = {
     'Scrum',
     'DevOps',
     'CI/CD',
+    'TypeScript',
+    'Angular'
   ],
   experiences: [
+    {
+      company: 'Sky Logistics',
+      position: 'Intern',
+      from: 'July 2025',
+      to: 'Current',
+      companyLink: 'https://www.sky-log.com/'
+    },
     {
       company: 'CodSoft',
       position: 'Intern',
