@@ -12,15 +12,38 @@ const CONFIG = {
   base: '/',
   projects: {
     external: {
-      header: 'My Projects',
+      header: 'Software Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Lixora SK Pharmaceutical Manufacturing Website',
+          description:
+            'Freelance e-commerce platform built with ASP.NET Core (Clean Architecture, CQRS) and React, featuring Paymob, SMSala, and AWS SES integrations plus CI/CD with GitHub Actions and Docker.',
+          link: '',
+        },
+        {
           title: 'Fixora',
           description:
-            'Fixora is designed to be a comprehensive platform for both craftsmen and customers. Craftsmen can display their services and skills to a broad audience, while customers can view the profiles of available craftsmen, and search for specific services. Customers can book craftsmen for various tasks, ensuring they find the right professional for home repairs and improvements.',
-          imageUrl:
-            '/Fixora.jpg',
+            'Graduation project delivering a scalable ASP.NET Core REST API with SignalR chat, Firebase push notifications, Hangfire automation, and CI/CD using GitHub Actions and Docker.',
+          imageUrl: '/Fixora.jpg',
+          link: '',
+        },
+        {
+          title: 'ChatGPT User Reviews - Sentiment Classification',
+          description:
+            'Trained SimpleRNN and LSTM models to classify ChatGPT user reviews as positive or negative.',
+          link: '',
+        },
+        {
+          title: 'Handwritten Alphabet Recognition',
+          description:
+            'Trained Linear and Non-Linear SVM models plus a TensorFlow neural network to recognize handwritten English alphabet.',
+          link: '',
+        },
+        {
+          title: 'Student Affairs Management System',
+          description:
+            'Built a Django (MVT) system with a clean HTML/CSS/JS UI and jQuery (AJAX) for student affairs workflows.',
           link: '',
         },
       ],
@@ -41,11 +64,12 @@ const CONFIG = {
         // Properties for manually specifying projects
         projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
-    },   
+    },
   },
   seo: {
-    title: 'Portfolio of Ahmed Nagy',
-    description: 'Motivated and detail-oriented Computer Science graduate with a solid foundation in data structures, algorithms, and software development principles. Proficient in Java, Python, and SQL, with hands-on experience building backend systems and web applications through academic projects and internships. Strong problem-solving skills, a passion for clean and efficient code, and a desire to contribute to collaborative and innovative development teams.',
+    title: 'Ahmed Nagy Ramadan | Software Engineer',
+    description:
+      'Software Engineer specializing in ASP.NET Core, Angular, and scalable backend systems, with experience delivering full-stack solutions, integrations, and CI/CD pipelines.',
     imageURL: '',
   },
   social: {
@@ -66,74 +90,124 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: '',
-    phone: '+201015684166',
+    website: 'https://ahmednagy24.github.io',
+    phone: '+20 101 568 4166',
     email: 'ahmed.nagy.rd@gmail.com',
   },
   resume: {
-    fileUrl:
-      '/Ahmed Nagy-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '/Ahmed Nagy-CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'C/C++',
     'C#',
-    'JavaScript',
-    'ASP.Net',
-    'Entity Framework',
-    '.Net Core',
-    'Problem solving',
+    'ASP.NET Core',
+    'Entity Framework Core',
+    'Java',
+    'Spring Boot',
+    'Python',
+    'Django',
+    'TensorFlow',
+    'TypeScript',
+    'Angular',
+    'HTML',
+    'CSS',
+    'Clean Architecture',
+    'Vertical Slice Architecture',
+    'Onion Architecture',
+    'N-Tier Architecture',
+    'CQRS',
+    'Mediator Pattern',
+    'Outbox Pattern',
+    'Microservices',
+    'Domain-Driven Design (DDD)',
+    'MS SQL Server',
+    'Redis',
+    'RabbitMQ',
+    'SignalR',
+    'Hangfire',
+    'CAP',
     'AWS',
     'Azure',
     'Oracle Cloud',
-    'Software Engineering',
-    'CSS',
-    'Software Testing',
-    'Advanced Database',
-    'MS SQL Server',
-    'Algorithm design and analysis',
+    'Docker',
+    'Docker Compose',
     'Linux',
-    'Java',
-    'Spring Boot',
+    'GitHub Actions',
+    'Jenkins',
+    'CI/CD',
+    'Algorithm Design & Analysis',
     'Machine Learning',
     'NLP',
-    'Python',
-    'Django',
-    'Scrum',
+    'Scrum / Agile',
     'DevOps',
-    'CI/CD',
-    'TypeScript',
-    'Angular'
+    'Arabic (Native)',
+    'English (Excellent)',
+    'Communication',
+    'Presentation',
+    'Problem-solving',
   ],
   experiences: [
     {
-      company: 'Sky Logistics',
-      position: 'Intern',
-      from: 'July 2025',
-      to: 'Current',
-      companyLink: 'https://www.sky-log.com/'
+      company: 'Sky Ports Group',
+      position: 'Software Engineer (Full-time)',
+      from: 'Feb 2026',
+      to: 'Present',
     },
     {
-      company: 'CodSoft',
-      position: 'Intern',
-      from: 'Aug 2024',
-      to: 'Sep 2024',
-      companyLink: 'https://www.codsoft.in/',
+      company: 'OPUS 365',
+      position: '.NET Backend Engineer (Full-time)',
+      from: 'Sep 2025',
+      to: 'Feb 2026',
+    },
+    {
+      company: 'Sky Ports Group',
+      position: 'Full-Stack Developer (Internship)',
+      from: 'Jul 2025',
+      to: 'Sep 2025',
+    },
+    {
+      company: 'VSRP',
+      position: '.NET & Web Developer (Part-time)',
+      from: 'Jun 2022',
+      to: 'Jul 2025',
     },
   ],
   certifications: [
-    
+    {
+      year: 'Jul 2025 – Aug 2025',
+      name: '.NET 8 Microservices: DDD, CQRS, Clean Architecture',
+      body: 'Udemy',
+    },
+    {
+      year: 'May 2025 – Jun 2025',
+      name: 'Advanced SQL',
+      body: 'Kaggle Learn',
+    },
+    {
+      year: 'May 2025 – Jun 2025',
+      name: 'Intro to Docker',
+      body: 'Le Wagon',
+    },
+    {
+      year: 'Aug 2024 – Sep 2024',
+      name: 'Java Programming',
+      body: 'CodSoft',
+    },
+    {
+      year: 'Oct 2023 – Jun 2024',
+      name: 'Complete C# Masterclass',
+      body: 'Udemy',
+    },
   ],
   educations: [
     {
-      institution: 'Cairo University - Faculty of Computers and Artificial Intelligence',
-      degree: 'Bachelor’s degree in Computer Science',
-      from: '2021',
-      to: '2025',
+      institution:
+        'Faculty of Computers and Artificial Intelligence, Cairo University, Egypt',
+      degree: 'B.Sc. in Computer Science (Grade: Very Good)',
+      from: 'Sep 2021',
+      to: 'Jul 2025',
     },
   ],
-  publications: [
-    
-  ],
+  publications: [],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
