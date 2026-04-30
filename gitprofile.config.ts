@@ -29,7 +29,7 @@ const CONFIG = {
           link: '',
         },
         {
-          title: 'ChatGPT User Reviews — Sentiment Classification',
+          title: 'ChatGPT User Reviews - Sentiment Classification',
           description:
             'Trained SimpleRNN and LSTM models to classify ChatGPT user reviews as positive or negative.',
           link: '',
